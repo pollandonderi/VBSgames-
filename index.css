@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #fff;
+    background-color: rgba(10, 7, 7, 0.884);
+}
+.opening-statement{
+    background-image: url('thunder-island.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.general{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1em;
+    margin: 0 auto;
+    padding-inline: 1.2em;
+}
+
+h1, h2, h3{
+    padding-top: 1em;
+    justify-content: center;
+    display: flex;
+}
